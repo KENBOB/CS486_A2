@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GLSLang>
+  <BuiltInStates AmbA="1" AmbB="0" AmbG="0" AmbR="0" DifA="1" DifB="0" DifG="0" DifR="0" Enabled="False" PosW="0" PosX="0" PosY="0" PosZ="1" SpecA="1" SpecB="0" SpecG="0" SpecR="0" SpotConstant="1" SpotCutoff="180" SpotDirW="0" SpotDirX="0" SpotDirY="0" SpotDirZ="-1" SpotLinear="0" SpotQuadratic="0">
+    <FrontMaterial AmbA="1" AmbB="0.2" AmbG="0.2" AmbR="0.2" DifA="1" DifB="0.80000001" DifG="0.80000001" DifR="0.80000001" EmiA="1" EmiB="0" EmiG="0" EmiR="0" Shininess="0" SpecA="1" SpecB="0" SpecG="0" SpecR="0">
+    </FrontMaterial>
+    <BackMaterial AmbA="1" AmbB="0.2" AmbG="0.2" AmbR="0.2" DifA="1" DifB="0.80000001" DifG="0.80000001" DifR="0.80000001" EmiA="1" EmiB="0" EmiG="0" EmiR="0" Shininess="0" SpecA="1" SpecB="0" SpecG="0" SpecR="0">
+    </BackMaterial>
+  </BuiltInStates>
+  <VertexProcessor ColorControlValue="33273" CullFace="0" LocalValue="1" PolygonMode="" PolygonModeBack="6914" PolygonModeFront="6914" TwoSidedValue="0"/>
+  <FragmentProcessor AlphaClamp="0" AlphaFunc="519" AlphaTest="0" BlendEquation="32774" BlendFuncDST="1" BlendFuncSRC="1" Blending="0" ClampFar="1" ClampNear="0" ClearColorA="1.0000000" ClearColorB="0.5000000" ClearColorG="0.5000000" ClearColorR="0.5000000" DepthFunc="513" DepthTest="1" Shade="7425"/>
+  <VPCount numero="1">
+    <filenames>
+      <Filename0 VertexProgram="mip1.vert">
+      </Filename0>
+    </filenames>
+  </VPCount>
+  <FPCount numero="1">
+    <filenames>
+      <Filename0 FragmentProgram="mip1.frag">
+      </Filename0>
+    </filenames>
+  </FPCount>
+  <UniformVariables NumberOfVariables="3">
+    <Uniform0 ArraySize="1" name="t0" Type="1">
+      <Values Value0="0">
+      </Values>
+    </Uniform0>
+    <Uniform1 ArraySize="1" name="t1" Type="1">
+      <Values Value0="1">
+      </Values>
+    </Uniform1>
+    <Uniform2 ArraySize="1" name="TIME_FROM_INIT" Type="5">
+      <Values Value0="0">
+      </Values>
+    </Uniform2>
+  </UniformVariables>
+  <TexturedUsed NumberUsedTU="2">
+    <TextureUnit0 Custom="False" Deep="0" Filename="testimg\a2.png" FilenameX="" Filename_X="" FilenameY="" Filename_Y="" FilenameZ="" Filename_Z="" Height="0" MagFilter="9729" MinFilter="9729" Target="3553" Width="0" WrapR="10497" WrapS="10497" WrapT="10497"/>
+    <TextureUnit1 Custom="False" Deep="0" Filename="testimg\a1.png" FilenameX="" Filename_X="" FilenameY="" Filename_Y="" FilenameZ="" Filename_Z="" Height="0" MagFilter="9729" MinFilter="9729" Target="3553" Width="0" WrapR="10497" WrapS="10497" WrapT="10497"/>
+  </TexturedUsed>
+  <Background>
+    <BackgroundMode Background="testimg\piedras.png" mode="1" NegativeX="" NegativeY="" NegativeZ="" PositiveX="" PositiveY="" PositiveZ=""/>
+  </Background>
+</GLSLang>
